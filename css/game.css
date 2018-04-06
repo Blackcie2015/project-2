@@ -1,0 +1,27 @@
+.background    { background: Black;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 100, 100); }
+.wall          { background: white;   }
+.floater       { background: blue;   }
+
+.actor  { position: absolute;  }
+.coin   { background: rgb(241, 229, 89);
+          background-image: url("dollarbillrock.gif");
+          background-size: 12px 12px;}
+.player { background: green; }
+
+.game {
+  overflow: hidden;
+  max-width: 800px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
